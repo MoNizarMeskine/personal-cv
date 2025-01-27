@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e8bcbc;
+  color: #333;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav p {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.splash h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.splash img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  margin: 20px 0;
+}
+
+.splash p {
+  font-size: small;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 20px 20px;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #444;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+section p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+
+ul {
+  list-style-type: square; 
+  padding-left: 20px;
+}
+
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(189, 142, 142);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #444;
+}
+
+dl dd {
+  margin: 0;
+  color: #666;
+}
+
+.one-col {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 150px;
+    height: auto;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+form textarea {
+    height: 70px;
+    width: 300px;
+}
+
+
+form button {
+    margin-bottom: 20px;
+}
+
